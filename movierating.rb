@@ -10,6 +10,7 @@ loop do
 	movie_menu
   puts "Gimme some input: "
 	choice = gets.chomp
+  choice.downcase!
 
 	case choice
   	when "add"
